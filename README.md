@@ -56,37 +56,16 @@ CLI plugin for branch pruning, unresolved comment followup, and other repository
 
 A comprehensive suite of [mdformat](https://github.com/executablebooks/mdformat) plugins for extending CommonMark formatting capabilities.
 
-**mdformat-mkdocs** ([repo](https://github.com/KyleKing/mdformat-mkdocs)) - Format MkDocs and Material for MkDocs syntax
-
-Plugin for formatting MkDocs-specific markdown including admonitions, content tabs, and other Material theme features.
-
-**mdformat-obsidian** ([repo](https://github.com/KyleKing/mdformat-obsidian)) - Format Obsidian callouts and admonitions
-
-Format Obsidian-specific markdown including callouts (admonitions) and wiki-links.
-
-**mdformat-gfm-alerts** ([repo](https://github.com/KyleKing/mdformat-gfm-alerts)) - Format GitHub Markdown Alerts
-
-Plugin for formatting GitHub's blockquote-based admonitions (alerts).
-
-**mdformat-front-matters** ([repo](https://github.com/KyleKing/mdformat-front-matters)) - Format YAML, TOML, or JSON front matter
-
-Format front matter in markdown files while preserving the content structure.
-
-**mdformat-admon** ([repo](https://github.com/KyleKing/mdformat-admon)) - Format python-markdown admonitions
-
-Plugin for formatting python-markdown style admonitions.
-
-**mdformat-slw** ([repo](https://github.com/KyleKing/mdformat-slw)) - Integrate mdslw with mdformat
-
-Better markdown diffs by reducing semantic line breaks.
-
-**mdformat-hooks** ([repo](https://github.com/KyleKing/mdformat-hooks)) - Run shell commands as post-processing hooks
-
-Plugin for running shell commands (like mdsf) as post-processing hooks in mdformat.
-
-**mdformat-plugin-template** ([repo](https://github.com/KyleKing/mdformat-plugin-template)) - Template for creating mdformat plugins
-
-Copier template for creating new mdformat plugins with modern Python tooling.
+| Plugin | Description |
+|--------|-------------|
+| [mdformat-admon](https://github.com/KyleKing/mdformat-admon) | Format python-markdown admonitions |
+| [mdformat-front-matters](https://github.com/KyleKing/mdformat-front-matters) | Format YAML, TOML, or JSON front matter in markdown files |
+| [mdformat-gfm-alerts](https://github.com/KyleKing/mdformat-gfm-alerts) | Format GitHub's blockquote-based admonitions (alerts) |
+| [mdformat-hooks](https://github.com/KyleKing/mdformat-hooks) | Run shell commands (like mdsf) as post-processing hooks |
+| [mdformat-mkdocs](https://github.com/KyleKing/mdformat-mkdocs) | Format MkDocs-specific markdown including admonitions, content tabs, and Material theme features |
+| [mdformat-obsidian](https://github.com/KyleKing/mdformat-obsidian) | Format Obsidian callouts (admonitions) and wiki-links |
+| [mdformat-plugin-template](https://github.com/KyleKing/mdformat-plugin-template) | Copier template for creating new mdformat plugins with modern Python tooling |
+| [mdformat-slw](https://github.com/KyleKing/mdformat-slw) | Better markdown diffs by reducing semantic line breaks |
 
 ## Neovim Plugins
 
@@ -104,13 +83,9 @@ Neovim plugin for exploring and navigating complex codebases.
 
 ## Python Development Tools
 
-<details>
-<summary><strong>calcipy</strong> ([repo](https://github.com/KyleKing/calcipy) | [docs](https://calcipy.kyleking.me/)) - Python package to simplify development</summary>
-
-![banner](https://raw.githubusercontent.com/kyleking/calcipy/main/docs/calcipy-banner-wide.svg)
+**calcipy** ([repo](https://github.com/KyleKing/calcipy)) - Python package to simplify development</summary>
 
 Comprehensive Python development toolkit with task runners, documentation generators, and quality checks.
-</details>
 
 **calcipy_template** ([repo](https://github.com/KyleKing/calcipy_template)) - Copier template for Python projects
 
