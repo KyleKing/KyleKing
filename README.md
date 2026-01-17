@@ -26,31 +26,19 @@ GitHub CLI extension for dispatching workflows with fuzzy selection, input confi
 TUI for viewing and filtering JSONL log files with syntax highlighting and filtering capabilities.
 </details>
 
-**paper-todo-tui** ([repo](https://github.com/KyleKing/paper-todo-tui)) - TUI version of Paper Apps Todo
+**paper-todo-tui** ([repo](https://github.com/KyleKing/paper-todo-tui)) - TUI version of Paper Apps Todo. Minimalist terminal interface for the productivity system from [gladdendesign.com/products/paper-apps-todo](https://gladdendesign.com/products/paper-apps-todo).
 
-Minimalist terminal interface for the productivity system from [gladdendesign.com/products/paper-apps-todo](https://gladdendesign.com/products/paper-apps-todo).
+**tail-cw** ([repo](https://github.com/KyleKing/tail-cw)) - Tail CloudWatch logs. Python tool for tailing CloudWatch logs in the terminal.
 
-**tail-cw** ([repo](https://github.com/KyleKing/tail-cw)) - Tail CloudWatch logs
-
-Python tool for tailing CloudWatch logs in the terminal.
-
-**vcr-tui** ([repo](https://github.com/KyleKing/vcr-tui)) - TUI for VCR cassettes
-
-Terminal interface for managing and viewing VCR cassettes for HTTP interaction testing.
+**vcr-tui** ([repo](https://github.com/KyleKing/vcr-tui)) - TUI for VCR cassettes. Terminal interface for managing and viewing VCR cassettes for HTTP interaction testing.
 
 ## GitHub CLI Extensions
 
-**gh-wfd** ([repo](https://github.com/KyleKing/gh-wfd)) - Workflow dispatcher (also listed under TUIs)
+**gh-wfd** ([repo](https://github.com/KyleKing/gh-wfd)) - Workflow dispatcher (also listed under TUIs). Interactive GitHub Actions workflow dispatcher with fuzzy selection and history.
 
-Interactive GitHub Actions workflow dispatcher with fuzzy selection and history.
+**gh-star-search** ([repo](https://github.com/KyleKing/gh-star-search)) - Search your GitHub stars. GitHub CLI extension for quickly searching through your starred repositories.
 
-**gh-star-search** ([repo](https://github.com/KyleKing/gh-star-search)) - Search your GitHub stars
-
-GitHub CLI extension for quickly searching through your starred repositories.
-
-**gh-sweep** ([repo](https://github.com/KyleKing/gh-sweep)) - Administrative tools for GitHub
-
-CLI plugin for branch pruning, unresolved comment followup, and other repository maintenance tasks.
+**gh-sweep** ([repo](https://github.com/KyleKing/gh-sweep)) - Administrative tools for GitHub. CLI plugin for branch pruning, unresolved comment followup, and other repository maintenance tasks.
 
 ## Mdformat Plugins
 
@@ -69,84 +57,48 @@ A comprehensive suite of [mdformat](https://github.com/executablebooks/mdformat)
 
 ## Neovim Plugins
 
-**patch_it.nvim** ([repo](https://github.com/KyleKing/patch_it.nvim)) - Apply Code Rabbit diffs in Neovim
+**patch_it.nvim** ([repo](https://github.com/KyleKing/patch_it.nvim)) - Apply Code Rabbit diffs in Neovim. Neovim plugin for applying code review diffs from Code Rabbit directly in your editor.
 
-Neovim plugin for applying code review diffs from Code Rabbit directly in your editor.
+**codanna.nvim** ([repo](https://github.com/KyleKing/codanna.nvim)) - Integrate bartolli/codanna with pickers. Integrate codanna with Telescope, Snacks Picker, and Mini.Picker for enhanced code navigation.
 
-**codanna.nvim** ([repo](https://github.com/KyleKing/codanna.nvim)) - Integrate bartolli/codanna with pickers
-
-Integrate codanna with Telescope, Snacks Picker, and Mini.Picker for enhanced code navigation.
-
-**spaghetti-comb.nvim** ([repo](https://github.com/KyleKing/spaghetti-comb.nvim)) - Code exploration plugin
-
-Neovim plugin for exploring and navigating complex codebases.
+**spaghetti-comb.nvim** ([repo](https://github.com/KyleKing/spaghetti-comb.nvim)) - Code exploration plugin. Neovim plugin for exploring and navigating complex codebases.
 
 ## Python Development Tools
 
-**calcipy** ([repo](https://github.com/KyleKing/calcipy)) - Python package to simplify development</summary>
+**calcipy** ([repo](https://github.com/KyleKing/calcipy)) - Python package to simplify development. Comprehensive Python development toolkit with task runners, documentation generators, and quality checks.
 
-Comprehensive Python development toolkit with task runners, documentation generators, and quality checks.
+**calcipy_template** ([repo](https://github.com/KyleKing/calcipy_template)) - Copier template for Python projects. Project scaffold for Python packages built on calcipy. Utilizes copier to keep projects up to date.
 
-**calcipy_template** ([repo](https://github.com/KyleKing/calcipy_template)) - Copier template for Python projects
+**corallium** ([repo](https://github.com/KyleKing/corallium)) - CLI utility functions. CLI utility functions extracted from calcipy for general-purpose use.
 
-Project scaffold for Python packages built on calcipy. Utilizes copier to keep projects up to date.
-
-**corallium** ([repo](https://github.com/KyleKing/corallium)) - CLI utility functions
-
-CLI utility functions extracted from calcipy for general-purpose use.
-
-**copier-template-tester** ([repo](https://github.com/KyleKing/copier-template-tester)) - CLI tool for testing copier templates
-
-Pre-commit tool and CLI for testing copier template updates and changes.
+**copier-template-tester** ([repo](https://github.com/KyleKing/copier-template-tester)) - CLI tool for testing copier templates. Pre-commit tool and CLI for testing copier template updates and changes.
 
 ## Workflow & Testing
 
-**dagtest** ([repo](https://github.com/KyleKing/dagtest)) - Complex workflow automation testing
+**dagtest** ([repo](https://github.com/KyleKing/dagtest)) - Complex workflow automation testing. Model and run complex workflow automation testing with Playwright and event listeners.
 
-Model and run complex workflow automation testing with Playwright and event listeners.
+**dagster-taskiq-executor-demo** ([repo](https://github.com/KyleKing/dagster-taskiq-executor-demo)) - TaskIQ executor for Dagster. Demo application using TaskIQ instead of Celery to run Dagster jobs.
 
-**dagster-taskiq-executor-demo** ([repo](https://github.com/KyleKing/dagster-taskiq-executor-demo)) - TaskIQ executor for Dagster
+**tlr** ([repo](https://github.com/KyleKing/tlr)) - Tech Lead Reporter CLI tool. Command-line tool for generating technical leadership reports and metrics.
 
-Demo application using TaskIQ instead of Celery to run Dagster jobs.
-
-**tlr** ([repo](https://github.com/KyleKing/tlr)) - Tech Lead Reporter CLI tool
-
-Command-line tool for generating technical leadership reports and metrics.
-
-**PhyloSpec** ([repo](https://github.com/KyleKing/PhyloSpec)) - Traceability between specifications
-
-[WIP] Maintain traceability between PRD, SyDS, SSS, SRS, SSDD, and other requirements documentation. Named for phylogeny-like relationships between specifications.
+**PhyloSpec** ([repo](https://github.com/KyleKing/PhyloSpec)) - Traceability between specifications. [WIP] Maintain traceability between PRD, SyDS, SSS, SRS, SSDD, and other requirements documentation. Named for phylogeny-like relationships between specifications.
 
 ## Utilities & Other Projects
 
-**configapult** ([repo](https://github.com/KyleKing/configapult)) - Configuration file catapult
+**configapult** ([repo](https://github.com/KyleKing/configapult)) - Configuration file catapult. Tool for maintaining templated configuration files across projects.
 
-Tool for maintaining templated configuration files across projects.
+**yak-shears** ([repo](https://github.com/KyleKing/yak-shears)) - ✁ ✁ ✁. Utility tool for automating repetitive tasks.
 
-**yak-shears** ([repo](https://github.com/KyleKing/yak-shears)) - ✁ ✁ ✁
+**diacea** ([repo](https://github.com/KyleKing/diacea)) - Convert between Excalidraw and PlantUML. Proof of concept for bidirectional conversion between Excalidraw and PlantUML diagrams.
 
-Utility tool for automating repetitive tasks.
+**app-template** ([repo](https://github.com/KyleKing/app-template)) - Minimal Deno, Hono, HTMX template. Minimal application template using modern web technologies: Deno, Hono, HTMX, and Vento.
 
-**diacea** ([repo](https://github.com/KyleKing/diacea)) - Convert between Excalidraw and PlantUML
+**recipes** ([repo](https://github.com/KyleKing/recipes)) - Personal recipe site. Personal recipe website built with Go.
 
-Proof of concept for bidirectional conversion between Excalidraw and PlantUML diagrams.
+**karabiner-actions** ([repo](https://github.com/KyleKing/karabiner-actions)) - Karabiner Home Row Mods. Karabiner-Elements configuration for GACS home row mods.
 
-**app-template** ([repo](https://github.com/KyleKing/app-template)) - Minimal Deno, Hono, HTMX template
-
-Minimal application template using modern web technologies: Deno, Hono, HTMX, and Vento.
-
-**recipes** ([repo](https://github.com/KyleKing/recipes)) - Personal recipe site
-
-Personal recipe website built with Go.
-
-**karabiner-actions** ([repo](https://github.com/KyleKing/karabiner-actions)) - Karabiner Home Row Mods
-
-Karabiner-Elements configuration for GACS home row mods.
-
-**dotfiles** ([repo](https://github.com/KyleKing/dotfiles)) - Personal dotfiles
-
-Personal dotfiles synced with chezmoi, including Neovim, Zsh, and terminal configurations.
+**dotfiles** ([repo](https://github.com/KyleKing/dotfiles)) - Personal dotfiles. Personal dotfiles synced with chezmoi, including Neovim, Zsh, and terminal configurations.
 
 ---
 
-[Personal Website](https://kyleking.me) | [PyPI Packages](https://pypi.org/user/kyleking/)
+[Personal Website](https://kyleking.me) | [PyPI Packages](https://pypi.org/user/kyleking)
