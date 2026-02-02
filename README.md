@@ -7,7 +7,7 @@ Forks:
 - https://github.com/KyleKing/mise-postgres
 
 Personal:
-- https://github.com/KyleKing/dotfiles
+- https://github.com/KyleKing/dotfiles (chezmoi)
 - https://github.com/KyleKing/recipes
 - https://github.com/KyleKing/nvim
 - https://github.com/KyleKing/karabiner-actions
@@ -42,7 +42,7 @@ Need to do something with?
 </details>
 
 <details>
-<summary><strong>paper-todo-tui</strong> (<a href="https://github.com/KyleKing/paper-todo-tui">repo</a>) - TUI adaption of the minimalist productivity system from <a href="https://gladdendesign.com/products/paper-apps-todo">Paper Apps "TODO"<a>
+<summary><strong>paper-todo-tui</strong> (<a href="https://github.com/KyleKing/paper-todo-tui">repo</a>) - TUI adaption of the minimalist productivity system from <a href="https://gladdendesign.com/products/paper-apps-todo">Paper Apps "TODO"</a>
 
 ![demo](https://raw.githubusercontent.com/kyleking/paper-todo-tui/main/.github/assets/demo.gif)
 </details>
