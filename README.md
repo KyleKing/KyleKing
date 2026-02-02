@@ -3,8 +3,7 @@ A few of my main projects:
 <!-- PLANNED:
 
 Forks:
-- https://github.com/KyleKing/textract-py3
-- https://github.com/KyleKing/mise-postgres
+- https://github.com/KyleKing/textract-py3 (maintainer!?)
 
 Personal:
 - https://github.com/KyleKing/dotfiles (chezmoi)
@@ -42,7 +41,7 @@ Need to do something with?
 </details>
 
 <details>
-<summary><strong>paper-todo-tui</strong> (<a href="https://github.com/KyleKing/paper-todo-tui">repo</a>) - TUI adaption of the minimalist productivity system from <a href="https://gladdendesign.com/products/paper-apps-todo">Paper Apps "TODO"</a>
+<summary><strong>paper-todo-tui</strong> (<a href="https://github.com/KyleKing/paper-todo-tui">repo</a>) - TUI adaption of the minimalist productivity system from <a href="https://gladdendesign.com/products/paper-apps-todo">Paper Apps "TODO"</a></summary>
 
 ![demo](https://raw.githubusercontent.com/kyleking/paper-todo-tui/main/.github/assets/demo.gif)
 </details>
@@ -107,6 +106,10 @@ A comprehensive suite of [mdformat](https://github.com/executablebooks/mdformat)
 <!-- PLANNED: **diacea** ([repo](https://github.com/KyleKing/diacea)) - Proof of concept for bidirectional conversion between Excalidraw and PlantUML diagrams -->
 
 **app-template** ([repo](https://github.com/KyleKing/app-template)) - Minimal Deno, Hono, HTMX template (HAVE I USED THIS ANYWHERE?)
+
+**djot-fmt** ([repo](https://github.com/KyleKing/djot-fmt)) - Formatter for djot markup language
+
+**mise-postgres-binary** ([repo](https://github.com/KyleKing/mise-postgres-binary)) - Mise plugin for installing PostgreSQL binaries
 
 ---
 
