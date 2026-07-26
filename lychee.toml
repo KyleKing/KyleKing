@@ -1,0 +1,8 @@
+# https://lychee.cli.rs/usage/config-file/
+cache = true
+max_cache_age = "1d"
+max_retries = 3
+retry_wait_time = 2
+timeout = 20
+# GitHub rate-limits unauthenticated requests hard; lychee reads a GITHUB_TOKEN
+# env var automatically (https://lychee.cli.rs/usage/config-file/), no config needed.

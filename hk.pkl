@@ -1,5 +1,4 @@
-// Install with `hk install`
-// mdformat runs via uvx (see the "mdformat" step below), so no mise-managed tools are required
+// Install with `hk install --mise` (lychee is mise-managed; mdformat and check-gifs run via uv)
 
 amends "package://github.com/jdx/hk/releases/download/v1.53.0/hk@1.53.0#/Config.pkl"
 import "package://github.com/jdx/hk/releases/download/v1.53.0/hk@1.53.0#/Builtins.pkl"
@@ -26,6 +25,17 @@ local commit_msg_checks = new Mapping<String, Step> {
   ["check-conventional-commit"] = Builtins.check_conventional_commit
 }
 
+// Network-bound, so kept off pre-commit/fix and only run on pre-push/check.
+local network_checks = new Mapping<String, Step> {
+  ["check-gifs"] {
+    glob = "*.md"
+    check = "uv run scripts/check_gifs.py {{files}}"
+  }
+  ["lychee"] = (Builtins.lychee) {
+    glob = "*.md"
+  }
+}
+
 hooks {
   ["pre-commit"] {
     fix = true
@@ -33,7 +43,7 @@ hooks {
     steps = linters
   }
   ["pre-push"] {
-    steps = linters
+    steps = new { ...network_checks; ...linters }
   }
   ["commit-msg"] {
     steps = commit_msg_checks
@@ -43,6 +53,6 @@ hooks {
     steps = linters
   }
   ["check"] {
-    steps = linters
+    steps = new { ...network_checks; ...linters }
   }
 }
