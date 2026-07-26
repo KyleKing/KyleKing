@@ -174,7 +174,7 @@ Then `<leader>sb` for breadcrumbs, `<leader>sh` for the history picker.
 
 ## Mdformat Plugins
 
-A suite of [mdformat](https://github.com/executablebooks/mdformat) plugins for extending CommonMark formatting capabilities.
+A suite of [mdformat](https://github.com/hukkin/mdformat) plugins for extending CommonMark formatting capabilities.
 
 | Plugin                                                                           | Description                                                                                      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
