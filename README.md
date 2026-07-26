@@ -174,7 +174,7 @@ Then `<leader>sb` for breadcrumbs, `<leader>sh` for the history picker.
 
 ## Mdformat Plugins
 
-A comprehensive suite of [mdformat](https://github.com/executablebooks/mdformat) plugins for extending CommonMark formatting capabilities.
+A suite of [mdformat](https://github.com/executablebooks/mdformat) plugins for extending CommonMark formatting capabilities.
 
 | Plugin                                                                           | Description                                                                                      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -184,7 +184,7 @@ A comprehensive suite of [mdformat](https://github.com/executablebooks/mdformat)
 | [mdformat-hooks](https://github.com/KyleKing/mdformat-hooks)                     | Run shell commands (like mdsf for code formatting) as post-processing hooks                      |
 | [mdformat-mkdocs](https://github.com/KyleKing/mdformat-mkdocs)                   | Format MkDocs-specific markdown including admonitions, content tabs, and Material theme features |
 | [mdformat-obsidian](https://github.com/KyleKing/mdformat-obsidian)               | Format Obsidian callouts (admonitions) and wiki-links                                            |
-| [mdformat-plugin-template](https://github.com/KyleKing/mdformat-plugin-template) | Opioniated copier template for creating new mdformat plugins with modern Python tooling          |
+| [mdformat-plugin-template](https://github.com/KyleKing/mdformat-plugin-template) | Opinionated copier template for creating new mdformat plugins with modern Python tooling         |
 | [mdformat-slw](https://github.com/KyleKing/mdformat-slw)                         | Better markdown diffs by reducing semantic line breaks                                           |
 
 <details>
@@ -351,7 +351,7 @@ mise use postgres-binary:postgres@18.4.0
 
 ## Contributions
 
-- [textract](https://github.com/deanmalmgren/textract) - Extract text from any document; I contribute here after my textract-py3 fork merged upstream
+- [textract](https://github.com/deanmalmgren/textract) - Extract text from any document. I previously maintained textract-py3, but have since merged all of the improvements into textract and continued releasing new features
 
 ______________________________________________________________________
 
