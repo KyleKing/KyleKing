@@ -12,7 +12,23 @@ A few of my main projects:
 ## Terminal UI Applications
 
 <details>
-<summary><strong>repo-dashboard</strong> (<a href="https://github.com/KyleKing/gh-repo-dashboard">repo</a>) - TUI for viewing linked PRs, git status, stashes, and other information across multiple local git and Jujutsu (jj) repositories</summary>
+<summary><strong>wavez</strong> (<a href="https://github.com/KyleKing/wavez">repo</a>) - Personal AI coding agent: deterministic gates and refactor modifiers keep the model out of the predictable parts, with a TUI dashboard across threads, schedule, and diagnostics</summary>
+
+![demo](https://raw.githubusercontent.com/kyleking/wavez/main/docs/demo.gif)
+
+**Quickstart**
+
+```bash
+go install github.com/KyleKing/wavez/cmd/wavez@latest
+wavez -p "fix the failing test" -cycle fix
+```
+
+macOS only today (Seatbelt sandbox, cgo tree-sitter indexer). Built for one user, one laptop; see [DESIGN.md](https://github.com/KyleKing/wavez/blob/main/DESIGN.md) for the milestones.
+
+</details>
+
+<details>
+<summary><strong>repo-dashboard</strong> (<a href="https://github.com/KyleKing/gh-repo-dashboard">repo</a>) - TUI for viewing linked PRs, git status, stashes, and other information across multiple local git and Jujutsu (jj) repositories. Shares its VCS models and rendering with jj-diff and gh-sweep via <a href="https://github.com/KyleKing/aragonite">aragonite</a></summary>
 
 ![demo](https://raw.githubusercontent.com/kyleking/repo-dashboard/main/.github/assets/demo.gif)
 
@@ -91,6 +107,19 @@ vcr-tui preview cassette.yaml --key "interactions[0].response.body.string"
 
 </details>
 
+<details>
+<summary><strong>second-look</strong> (<a href="https://github.com/KyleKing/second-look">repo</a>) - Stage code review comments locally (Claude Code drafts them via the change-review skill), then post the review to GitHub in one deterministic call. The browsing TUI is still in progress</summary>
+
+**Quickstart**
+
+```bash
+go install github.com/kyleking/second-look/cmd/second-look@latest
+second-look get 42     # fetch the PR, check it out, cache the diff
+second-look post 42    # post the review in one call
+```
+
+</details>
+
 ## GitHub CLI Extensions
 
 <details>
@@ -126,12 +155,12 @@ Needs `uv` installed (manages the Python environment for summarization/embedding
 <details>
 <summary><strong>gh-sweep</strong> (<a href="https://github.com/KyleKing/gh-sweep">repo</a>) - TUI for sweeping GitHub repositories: dead branches, unresolved review threads, protection drift, and slow workflows</summary>
 
-<!-- PLANNED: ![demo](https://raw.githubusercontent.com/kyleking/gh-sweep/main/.github/assets/demo.gif) -->
+![demo](https://raw.githubusercontent.com/kyleking/gh-sweep/main/.github/assets/demo.gif)
 
 **Quickstart**
 
 ```bash
-gh extension install KyleKing/gh-sweep   # requires a GitHub Release; see CONTRIBUTING.md for a local install
+gh extension install KyleKing/gh-sweep
 gh sweep
 ```
 
@@ -286,14 +315,14 @@ Needs Linear, Incident.io, and Google Calendar credentials to refresh data (see 
 ## Utilities & Other Projects
 
 <details>
-<summary><strong>doner</strong> (<a href="https://github.com/KyleKing/doner">repo</a>) - Managed pinned versions in Dockerfiles (<code>doner</code>: DOcker maintaiNER)</summary>
+<summary><strong>doneram</strong> (<a href="https://github.com/KyleKing/doneram">repo</a>) - Manages pinned versions across Dockerfiles, mise config, GitHub Actions, and more (<code>doneram</code>: DOcker maintaiNER And More)</summary>
 
 **Quickstart**
 
 ```bash
-go install github.com/KyleKing/doner/cmd/doner@latest
-doner check              # dry-run
-doner update -f Dockerfile
+go install github.com/KyleKing/doneram/cmd/doneram@latest
+doneram check              # dry-run
+doneram update -f Dockerfile
 ```
 
 Homebrew tap listed as "coming soon."
